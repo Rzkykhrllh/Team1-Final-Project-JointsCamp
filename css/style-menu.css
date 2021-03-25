@@ -1,7 +1,6 @@
 body{
     background-color: #FFF5EC;
     color: #2E266F;
-    ;
 }
 
 h3{
@@ -19,6 +18,8 @@ p{
     margin-top: 30px;
     text-align: center;
 
+    max-width: 1440px;
+
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -26,8 +27,19 @@ p{
 
 }
 
+.card-conatiner{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* border: solid; */
+    /* background-color: #35CD8C; */
+}
+
 .food-item{
-    height: 460px;
+    margin-right: 15px;
+    margin-left: 15px;
+
     width: 385px;
     background-color: white;
     border-radius: 25px;
