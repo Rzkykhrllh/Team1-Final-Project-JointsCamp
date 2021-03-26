@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.navbar{
+    background: rgb(255, 237, 222);
+}
+
 #outercontainer {
     float: left;
     width: 40%;
