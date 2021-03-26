@@ -24,7 +24,7 @@
     color: #FE043C !important;
 }
 
-.user {
+li .user {
     margin-left: 90px !important;
 }
 
@@ -50,24 +50,27 @@ input.form-control::placeholder {
 }
 
 .canvas .object {
-    
-    width: 50px;
-    height: 55px;
-    left: 65px;
-    top: -200px;
     position: absolute;
+    width: 360px;
+    height: 493px;
+    left: 170px;
+    top: -380px;
+  
     z-index: 1;
 }
 
 .canvas .object2 {
-    margin-left: 100px;
+    margin-left: 10px;
     position: absolute;
+    top : 100px;
     transform: translateY(-50%);
-    top: 50%;
+    width: 640px ;
+    height: 650px;
+    
     z-index: 2;
     display: flex;
     justify-content: center;
-    width: 100%;
+   
 
 }
 .row .suggestion {
@@ -217,7 +220,7 @@ input.form-control::placeholder {
     }
 
     .hero h1{
-position: absolute;
+        position: absolute;
         width: 757px;
         height: 157px;
         left: 132px;
@@ -225,7 +228,7 @@ position: absolute;
 
         font-style: normal;
         font-weight: bold;
-        font-size: 72px;
+        font-size: 64px;
         line-height: 90px;
         
 
@@ -336,32 +339,32 @@ position: absolute;
     }
     .canvas {
     position: absolute;
-width: 507px;
-height: 502px;
-left: 38px;
-top: 700px;
+    width: 507px;
+    height: 502px;
+    left: -140px;
+    top: 700px;
  
 }
 
 .canvas .object {
     
-    width: 50px;
-    height: 55px;
+    width: 50px !important;
+    height: 55px !important;
     left: 65px;
-    top: -200px;
-    position: absolute;
+    top: 50%;
     z-index: 1;
 }
 
 .canvas .object2 {
+
     margin-left: 100px;
-    position: absolute;
     transform: translateY(-50%);
     top: 50%;
     z-index: 2;
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 507px;
+    height: 510px;
 
 }
 .hero h1{
@@ -459,6 +462,11 @@ top: 700px;
 
     }
 
+     .container.section-suggestion{
+        height: 600px !important;
+
+    }
+
     .row .suggestion {
     position: absolute;
     width: 464px;
@@ -492,7 +500,7 @@ top: 700px;
     
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 11px;
     line-height: 24px;
     /* or 171% */
 
@@ -510,24 +518,26 @@ top: 700px;
     height: 493px;
     left: 0px;
     top: 1680px;
+    display: block;
 }
 
 .row .burger {
     position: absolute;
     width: 494px;
     height: 493px;
-    left: 511px;
-    top: 1570px;
+    left: 0px;
+    top: 2300px;
+    display: block;
 }
 
 .row .pizza2{
     z-index: 2;
     position: absolute;
-    width: 462px;
+    width: 459px;
     height: 200px;
     padding-left: 50px;
-    left: 10px;
-    top: 1975px;
+    left: 12px;
+    top: 1973px;
     padding-top: 35px;
 
     background: #FE043C;
@@ -562,11 +572,11 @@ top: 700px;
 .row .burger2 {
     z-index: 2;
     position: absolute;
-    width: 472px;
+    width: 459px;
     height: 200px;
     padding-left: 50px;
-    left: 522px;
-    top: 1865px;
+    left: 12px;
+    top: 2593px;
     padding-top: 35px;
     text-transform: capitalize;
     
@@ -586,7 +596,7 @@ top: 700px;
     position: absolute;
     width: 155px;
     height: 40px;
-    left: 317px;
+    left: 308px;
     top: 130px;
 
     background: #FFFFFF;
@@ -597,6 +607,9 @@ top: 700px;
 .row .burger2 .locationbazar {
     margin-top: -15px;
 }
+
+
+
 
 
 
