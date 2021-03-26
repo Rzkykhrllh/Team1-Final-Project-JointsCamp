@@ -68,3 +68,7 @@ section::after {
     display: table-cell;
     vertical-align: middle;
 }
+
+footer{
+    margin-top: 0px;
+}
